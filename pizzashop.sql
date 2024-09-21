@@ -13,15 +13,15 @@ VALUES
 
 INSERT INTO Ingredients (name, cost, vegetarian, vegan)
 VALUES 
-('Flour', 0.30, TRUE),
-('Water', 0.00, TRUE),
-('Yeast', 0.10, TRUE),
-('Salt', 0.05, TRUE),
-('Olive Oil', 0.20, TRUE),
-('Sugar', 0.05, TRUE);
+('Flour', 0.30, TRUE, TRUE),
+('Water', 0.00, TRUE, TRUE),
+('Yeast', 0.10, TRUE, TRUE),
+('Salt', 0.05, TRUE, TRUE),
+('Olive Oil', 0.20, TRUE, TRUE),
+('Sugar', 0.05, TRUE, TRUE),
 ('Tomato', 0.30, TRUE, TRUE),
-('Tomato Sauce', 0.20, TRUE,TRUE)
-('Mozzarella', 1.20, TRUE,FALSE),
+('Tomato Sauce', 0.20, TRUE, TRUE),
+('Mozzarella', 1.20, TRUE, FALSE),
 ('Basil', 0.10, TRUE, TRUE),
 ('Pepperoni', 1.50, FALSE, FALSE),
 ('Bell Peppers', 0.15, TRUE,TRUE),
@@ -195,4 +195,3 @@ VALUES
 (10, 27), -- Feta
 (10, 28), -- Olives
 (10, 29); -- Artichokes
- 
