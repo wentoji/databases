@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="sakila_backup.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+    <script-file value="$PROJECT_DIR$/sakila_backup.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="83e895af-5ff2-4acd-9297-2ee6d3d4c6d8" />
+    <method v="2" />
+  </configuration>
+</component>
