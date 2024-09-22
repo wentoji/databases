@@ -1,4 +1,4 @@
-INSERT INTO Pizza (name, price ,vegetarian, vegan) 
+INSERT INTO Pizza (name, price, vegetarian, vegan) 
 VALUES 
 ('Margherita', 0.00, NULL, NULL),
 ('Pepperoni', 0.00, NULL, NULL),
@@ -37,9 +37,9 @@ VALUES
 ('Blue Cheese', 1.30, TRUE, FALSE),
 ('Cheddar', 1.10, TRUE, FALSE),
 ('Parmesan', 1.20, TRUE, FALSE),
-('Sausage', 1.70, FALSE FALSE),
-('Bacon', 1.90, FALSE, FALSE),
-('Feta', 1.40, TRUE, FALSE),
+('Sausage', 1.70, FALSE, FALSE),
+('Bacon', 1.20, FALSE, FALSE),
+('Feta', 1.00, TRUE, FALSE),
 ('Olives', 0.70,TRUE, TRUE),
 ('Artichokes', 1.50,TRUE, TRUE);
 

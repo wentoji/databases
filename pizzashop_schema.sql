@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS pizza_shop;
 USE pizza_shop;
 
-DROP TABLE Pizza;
+
 
 CREATE TABLE Pizza (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -12,18 +12,14 @@ CREATE TABLE Pizza (
 );
 
 
-DROP TABLE Ingredients;
-
 CREATE TABLE Ingredients (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
-    cost DECIMAL(5, 2) NOT NULL,
+    cost DECIMAL(5,2) NOT NULL,
     vegetarian BOOLEAN DEFAULT FALSE,
     vegan BOOLEAN DEFAULT FALSE
 );
 
-
-DROP TABLE Pizza_Ingredients;
 
 CREATE TABLE Pizza_Ingredients (
     pizza_id INT,
